@@ -10,8 +10,8 @@ from telegram.ext import (
 )
 
 # Paste your BotFather token into BOT_TOKEN below, or set it as an environment variable.
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))  # Your numeric Telegram user ID
+BOT_TOKEN = os.getenv("9204996076:AAHK8KiYEiK0_gh2bhvzyN6M4eNaovRwB9s", "9204996076:AAHK8KiYEiK0_gh2bhvzyN6M4eNaovRwB9s").strip()
+ADMIN_ID = int(os.getenv("@ItsArman36", "0"))  #@ItsArman36
 DB_PATH = os.getenv("DB_PATH", "first_bot.db")
 REFERRAL_REWARD = int(os.getenv("REFERRAL_REWARD", "10"))
 MIN_WITHDRAW = int(os.getenv("MIN_WITHDRAW", "100"))

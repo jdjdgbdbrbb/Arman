@@ -1,6 +1,6 @@
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9204996076:AAEvwmVwxLGr44-bmhyQl8_UZ19qGBt0dSU").strip()
 ADMIN_ID = int(os.getenv("ADMIN_ID", "6577841902"))
 BOT_USERNAME = os.getenv("BOT_USERNAME", "").strip().lstrip("@")
 WEBAPP_URL = os.getenv("WEBAPP_URL", "https://YOUR-APP-DOMAIN.example").rstrip("/")
